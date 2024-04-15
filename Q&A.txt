@@ -1,0 +1,68 @@
+What distinguishes normal HTML elements from semantic HTML elements?
+Normal HTML Elements:
+Purpose: Normal HTML elements are generic and used primarily for layout and presentation purposes.
+Meaning: They do not convey specific meaning about the content they encapsulate.
+Examples: <div>, <span>, <p>, <b>, <i>, <table>, <img>, <a>, etc.
+Usage: Normal HTML elements are versatile and can be styled using CSS to achieve desired visual effects.
+Accessibility: They may not provide meaningful information to assistive technologies (e.g., screen readers) about the role or purpose of the content.
+Semantic HTML Elements:
+
+Semantic HTML elements:
+Purpose: Semantic HTML elements have specific meanings that convey the purpose and structure of the content they wrap.
+Meaning: They provide context and clarity to both developers and web browsers about the content they contain.
+Examples: <header>, <nav>, <article>, <section>, <aside>, <footer>, <main>, <figure>, <figcaption>, <time>, etc.
+Usage: Semantic HTML elements are designed to represent different sections and components of a web page based on their semantic meaning.
+Accessibility: Semantic HTML elements improve accessibility by conveying important information to assistive technologies, making web content more usable for people with disabilities.
+
+Key Differences:
+Purpose: Normal HTML elements are primarily used for layout and styling, while semantic HTML elements define the structure and meaning of the content.
+Meaning: Semantic HTML elements have specific semantic meaning, conveying the role and purpose of the content for better understanding.
+Clarity and Maintainability: Semantic HTML promotes cleaner, more readable code by providing meaningful labels for different sections of a web page.
+Accessibility: Semantic HTML enhances accessibility by helping assistive technologies interpret content accurately, improving usability for all users.
+
+In summary, semantic HTML elements play a crucial role in defining the structure, meaning, and accessibility of web content. 
+By using semantic elements appropriately, web developers can create more meaningful, usable, and maintainable websites that benefit both users and search engines.
+
+
+ Disparity between closing tags and self-closing tags in HTML
+ Closing Tags: 
+ Used for elements that encapsulate content or define a block of content within the document structure. 
+They require both an opening tag (<tag>) and a closing tag (</tag>).
+Self-Closing Tags: 
+Used for elements that represent standalone entities or require minimal configuration.
+They do not have a separate closing tag; instead, the entire element is defined within a single self-closing tag (<tag />).
+
+
+What distinguishes inline elements from block elements in HTML?
+The distinction between inline elements and block elements in HTML relates to how these elements behave within the document flow, 
+their default rendering properties, and how they interact with other elements on the web page. Here's a concise explanation of the differences:
+
+Inline Elements:
+Inline elements are HTML elements that do not start on a new line and only occupy as much width as necessary to display their content. They flow within the content of a block-level parent element and do not force a line break before or after themselves. 
+Common inline elements include <span>, <a>, <strong>, <em>, <img>, <input>, <label>, <br>, <i>, <code>, etc.
+
+Key Characteristics of Inline Elements:
+Inline Flow: Inline elements flow within the content of a block-level parent element without creating a new line.
+Width: They occupy only as much width as necessary to display their content.
+No Line Breaks: Inline elements do not force a line break before or after themselves.
+Examples: <span>, <a>, <strong>, <em>, <img>, <input>, <br>, <i>, <code>, etc.
+
+Block Elements:
+Block elements are HTML elements that start on a new line and occupy the full width available to them within their containing parent element. 
+They create a "block" of content that typically stretches across the entire width of its parent container, forcing subsequent elements to start on a new line after them. 
+Common block elements include <div>, <p>, <h1> to <h6>, <ul>, <ol>, <li>, <table>, <form>, <header>, <footer>, <section>, <article>, etc.
+
+Key Characteristics of Block Elements:
+Block Flow: Block elements start on a new line and occupy the full width available within their containing parent element.
+Full Width: They stretch horizontally to fill the entire width of their parent container by default.
+Line Breaks: Block elements cause a line break before and after themselves, creating distinct "blocks" of content.
+Examples: <div>, <p>, <h1> to <h6>, <ul>, <ol>, <li>, <table>, <form>, <header>, <footer>, <section>, <article>, etc.
+Key Differences Between Inline and Block Elements:
+
+Visual Layout: Inline elements flow within the text content, while block elements create distinct sections or blocks of content.
+Width: Inline elements only occupy necessary width, whereas block elements stretch to fill the available width.
+Line Breaks: Inline elements do not cause line breaks, while block elements start on a new line and create line breaks before and after.
+Default Display: Inline elements have display: inline; by default, while block elements have display: block; by default.
+Nested Elements: Block elements can contain both inline and block-level elements, but inline elements cannot contain block-level elements.
+Understanding the difference between inline and block elements is crucial for web developers to control the layout, structure, and behavior of HTML content effectively. 
+By leveraging the appropriate display properties and structural elements, developers can create well-organized and visually appealing web pages that conform to design requirements and user expectations.
